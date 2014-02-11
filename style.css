@@ -1,13 +1,4 @@
-/*
-Template Name: Vivid Photo
-Theme URI: http://www.priteshgupta.com/templates/vivid-photo
-Description: Free Photography Template
-Author: Pritesh Gupta
-Author URI: http://www.priteshgupta.com/
-Version: 2.0
-License: New BSD License
-License URI: license.txt
-*/
+
 
 html, body {
 	height:100%;
@@ -202,9 +193,9 @@ ul.menu {
 	list-style: none;
 	font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
 	font-size:14px;
-	width:680px;
+	width:520px;
 	position:absolute;
-	top:30%;
+	top:27%;
 	right:0%
 }
 ul.menu a {
@@ -327,7 +318,7 @@ article {
 }
 /* Pop Up */
 #popupAbout, #popupMyfamily, #popupContact, #popupBlog {
-	height: 550px;
+	height: 500px;
 	width: 900px;
 	overflow: auto;
 	background-color: rgba(0, 0, 0, 0.80);
@@ -416,7 +407,7 @@ input, textarea {
 	color: #fff;
 }
 textarea {
-	min-height: 170px;
+	min-height: 150px;
 	resize:none;
 }
 input:focus, textarea:focus {
@@ -445,7 +436,7 @@ input[type=submit] {
 }
 #social-network img {
 	float: right;
-	margin-left: 20px;
+	margin-left: 40px;
 	opacity: 0.6;
 	-webkit-transition: all 1s ease-out;
 	-moz-transition: all 1s ease-out;
